@@ -1,15 +1,32 @@
+# Core Data Science
 pandas==1.2.4
 numpy==1.21.6
+
+# Machine Learning
 scikit-learn==0.24.1
 lightgbm==3.3.2
+xgboost==1.5.0
+
+# Deep Learning
+tensorflow==2.8.0
+
+# Time Series
+prophet==1.1.1
+
+# Serialization
 joblib==0.14.1
+
+# API & Web
 fastapi==0.103.2
 uvicorn==0.22.0
-matplotlib>=3.4.0
-seaborn>=0.11.0
-statsmodels>=0.13.0
-xgboost>=1.5.0
-tensorflow>=2.6.0
-prophet>=1.0
-requests>=2.26.0
-pydantic>=1.8.0
+pydantic==1.10.0
+
+# Visualization
+matplotlib==3.5.0
+seaborn==0.11.2
+
+# Statistics
+statsmodels==0.13.2
+
+# Utilities
+requests==2.27.0
