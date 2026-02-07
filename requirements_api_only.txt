@@ -1,0 +1,11 @@
+# Minimal requirements for API deployment only
+# Use this if you only need to run the FastAPI prediction service
+
+pandas==1.2.4
+numpy==1.21.6
+scikit-learn==0.24.1
+lightgbm==3.3.2
+joblib==0.14.1
+fastapi==0.103.2
+uvicorn==0.22.0
+pydantic==1.10.0
