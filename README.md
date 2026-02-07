@@ -52,7 +52,21 @@ This project develops a time series forecasting model to predict one-step-ahead 
 └── README.md
 ```
 
-## 🔍 Dataset Features
+## 🔍 Dataset
+
+### Data Source
+
+**Public Dataset Available:** The training dataset is publicly available on Mendeley Data:
+
+📊 **[Energy consumption and weather data for forecasting - Mendeley Data](https://data.mendeley.com/datasets/tvhygj8rgg/1)**
+
+- **Size:** ~70MB
+- **Format:** CSV
+- **Frequency:** Hourly readings
+- **Period:** Multiple months of energy consumption and weather data
+- **License:** CC BY 4.0 (Creative Commons - publicly available)
+
+### Dataset Features
 
 ### Energy Consumption Variables
 - **active_power** (target): Active power in watts
@@ -463,12 +477,20 @@ Top predictive features (from LightGBM):
 - **`/docs` endpoint**: Interactive Swagger UI documentation
 - **`models/expected_columns.txt`**: Required input features
 
+## 🤝 Contributing
+
+This is a portfolio project demonstrating end-to-end ML deployment. Feel free to:
+- Fork the repository
+- Experiment with different models
+- Improve the API
+- Add visualizations
+
 ## 👤 Author
 
 **Thanos Paidoulias**
 - Data Scientist specializing in Marketing Analytics & Time Series Forecasting
-- GitHub: [@https://github.com/ThanosPaidoulias]
-- LinkedIn: [https://www.linkedin.com/in/thanos-paidoulias/]
+- GitHub: [@https://www.linkedin.com/in/thanos-paidoulias/]
+- LinkedIn: [[Your LinkedIn](https://github.com/ThanosPaidoulias)]
 
 ## 📝 License
 
@@ -488,4 +510,15 @@ This project is open source and available for educational purposes.
 
 ⭐ If you found this project useful, please consider starring the repository!
 
-**Note:** The training dataset (`energy_weather_raw_data.csv`, ~70MB) is not included in the repository. Contact the author for access or use your own energy consumption dataset with similar schema.
+## 📊 Dataset Access
+
+The complete training dataset (`energy_weather_raw_data.csv`, ~70MB) is publicly available on Mendeley Data:
+
+**Download:** https://data.mendeley.com/datasets/tvhygj8rgg/1
+
+To use the dataset:
+1. Download from Mendeley Data (free account required)
+2. Place `energy_weather_raw_data.csv` in the `data/` directory
+3. Run `python src/train/Active_Power_Prediction.py` to train your own model
+
+**Citation:** If you use this dataset in your research or projects, please cite the original data source from Mendeley Data.
